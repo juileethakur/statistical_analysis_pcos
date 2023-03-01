@@ -40,3 +40,23 @@ Thus, in this project we will be focusing on different factors that affect the m
 11. Polynomial Regression - Since, fitting data in a linear manner can give far less accuracy, we use polynomial regression. We use PolynomialFeatures method from sklearn.preprocessing library and compare the errors for second, third, fourth and fifth order polynomials.
 
 12. Generalised Additive Models (GAM) - In GAM, the linear response variable "PCOS(Y/N" depends linearly on unknown smooth functions of some predictor variables from the dataset. We infer the performance based on them.
+
+# Data Description
+
+This data is collected from 10 different hospitals across Kerala, India. This dataset contains some physical and clinical parameters to determine PCOS and infertility related issues. There are a total of 16 parameters we have taken into consideration where our response variable is "PCOS (Y/N" and rest are predictors.
+
+PCOS (Y/N) - PCOS presence in the patient (Y means positive and N means negative results)
+Age (yrs) - Age of the patient
+BMI - Body mass index of the patient
+Waist:Hip Ratio - Waist to hip ratio of the patient
+Cycle(R/I) - Menstrual Cycle regurality (R mean Regular and I means Irregular)
+Cycle length(days) - Cycle length of the patient (in terms of number of days)
+Marraige Status (Yrs) - No. of year the patient has been married
+I beta-HCG(mIU/mL) - Quantitative hCG Blood Pregnancy Test 1
+II beta-HCG(mIU/mL) - Quantitative hCG Blood Pregnancy Test 2
+AMH(ng/mL) - Anti-Müllerian Hormone content in the patient (in ng/mL)
+Hb(g/dl) - Hemoglobin of the patient (in g/dl)
+BP Diastolic (mmHg) - Blood Pressure of the patient
+Vit D3 (ng/mL) - Vitamin D3 content in the patient to check for deficieny
+Follicle No. (L) - Follicle number for the left ovary
+Follicle No. (R) - Follicle number for the right ovary
